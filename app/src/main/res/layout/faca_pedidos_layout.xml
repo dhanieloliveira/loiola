@@ -37,14 +37,16 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="75dp"
         android:backgroundTint="#880A0A"
-        android:text="Pizza Grande" />
+        android:text="Pizza Grande"
+        android:id="@+id/btnPizzaG"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="75dp"
         android:backgroundTint="#880A0A"
-        android:text="Brotinho" />
+        android:text="Brotinho"
+        android:id="@+id/btnBrotinho"/>
 
     <Button
         android:layout_width="match_parent"
@@ -52,20 +54,23 @@
         android:layout_marginHorizontal="75dp"
         android:layout_marginTop="50dp"
         android:backgroundTint="#880A0A"
-        android:text="Suco" />
+        android:text="Suco"
+        android:id="@+id/btnSuco"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="75dp"
         android:backgroundTint="#880A0A"
-        android:text="Refrigerante" />
+        android:text="Refrigerante"
+        android:id="@+id/btnRefri"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="75dp"
         android:backgroundTint="#880A0A"
-        android:text="Água" />
+        android:text="Água"
+        android:id="@+id/btnAgua"/>
 
 </LinearLayout>
