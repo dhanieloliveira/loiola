@@ -55,7 +55,7 @@ public class Pedidos_Activity extends AppCompatActivity {
         btnInformacoes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), TabLayout.class));
+                startActivity(new Intent(getApplicationContext(), main_activity.class));
             }
         });
 
