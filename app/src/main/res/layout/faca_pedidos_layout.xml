@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/novo_fundo"
+    android:background="@drawable/fundo_amadeirado"
     android:orientation="vertical"
     tools:context=".FacaPedidos_Activity">
 
@@ -37,6 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="75dp"
         android:backgroundTint="#880A0A"
+        android:textStyle="bold"
         android:text="Pizza Grande"
         android:id="@+id/btnPizzaG"/>
 
@@ -45,6 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="75dp"
         android:backgroundTint="#880A0A"
+        android:textStyle="bold"
         android:text="Brotinho"
         android:id="@+id/btnBrotinho"/>
 
@@ -52,25 +54,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="75dp"
-        android:layout_marginTop="50dp"
         android:backgroundTint="#880A0A"
-        android:text="Suco"
+        android:textStyle="bold"
+        android:text="Bebidas"
         android:id="@+id/btnSuco"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="75dp"
-        android:backgroundTint="#880A0A"
-        android:text="Refrigerante"
-        android:id="@+id/btnRefri"/>
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:textStyle="bold"
+        android:text="Promoções"
+        android:drawableLeft="@drawable/baseline_star"
+        android:id="@+id/btnPromoções"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="75dp"
-        android:backgroundTint="#880A0A"
-        android:text="Água"
-        android:id="@+id/btnAgua"/>
 
 </LinearLayout>

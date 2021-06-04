@@ -29,7 +29,7 @@ public class main_activity extends AppCompatActivity {
 
         tabLayout.addTab(tabLayout.newTab().setText("Sobre Nós"));
         tabLayout.addTab(tabLayout.newTab().setText("Informações"));
-        tabLayout.addTab(tabLayout.newTab().setText("COMO SER MAROMBA? LÉO TE ENSINA"));
+        tabLayout.addTab(tabLayout.newTab().setText("Ajuda"));
 
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override

@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Loiola_delivery_app">
-        <activity android:name=".main_activity"></activity>
-        <activity android:name=".recyclear_pizza" />
+        <activity android:name=".RecyclerPizza_Activity"></activity>
+        <activity android:name=".main_activity" />
         <activity
             android:name=".FacaPedidos_Activity"
             android:parentActivityName=".Pedidos_Activity" />
