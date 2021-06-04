@@ -11,21 +11,23 @@ public class FacaPedidos_Activity extends AppCompatActivity {
 
 
 
-    Button btnPizzaG, btnBrotinho, btnSuco, btnRefri, btnAgua;
+    Button btnPizzaG;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        btnPizzaG = findViewById(R.id.btnPizzaG);
+
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.faca_pedidos_layout);
 
+        btnPizzaG = findViewById(R.id.btnPizzaG);
+
         btnPizzaG.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), RecyclerPizza_Activity.class));
+                startActivity(new Intent(getApplicationContext(), Informacoes_Activity.class));
             }
         });
 
