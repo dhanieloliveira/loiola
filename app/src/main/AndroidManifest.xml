@@ -8,8 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Loiola_delivery_app">
-        <activity android:name=".RecyclerPizza_Activity"></activity>
+        android:theme="@style/Theme.SplashSreen">
+        <activity android:name=".Promocoes_activity"></activity>
+        <activity android:name=".RecyclerPizza_Activity" />
         <activity android:name=".main_activity" />
         <activity
             android:name=".FacaPedidos_Activity"

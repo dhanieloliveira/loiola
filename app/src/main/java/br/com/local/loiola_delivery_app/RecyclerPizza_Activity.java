@@ -11,12 +11,12 @@ public class RecyclerPizza_Activity extends AppCompatActivity {
     RecyclerView recyclerView;
 
     String s1[], s2[],s3[];
-    int images [] = {R.drawable.pizzademussarela, R.drawable.pizzademarguerita, R.drawable.pizzaquatroqueijos,
-    R.drawable.pizzadebacon, R.drawable.pizzadecalabresa, R.drawable.pizzabaiana,
-    R.drawable.pizzaamericana, R.drawable.pizzadebauru, R.drawable.pizzaportuguesa,
-    R.drawable.pizzadepeperoni, R.drawable.pizzadelombo, R.drawable.pizzadeperu, R.drawable.pizzanordestina,
-    R.drawable.pizzadeatum, R.drawable.pizzadecamarao, R.drawable.pizzadeescarola, R.drawable.pizzadebrocolis,
-    R.drawable.pizzadepalmito, R.drawable.pizzadefrangocomcatupiry, R.drawable.modadacasa};
+    int images [] = {R.drawable.mussarela, R.drawable.marguerita, R.drawable.quatroqueijos,
+    R.drawable.bacon, R.drawable.calabresa, R.drawable.baiana,
+    R.drawable.americana, R.drawable.bauru, R.drawable.portuguesa,
+    R.drawable.peperoni, R.drawable.lombo, R.drawable.peru, R.drawable.nordestina,
+    R.drawable.atum, R.drawable.camarao, R.drawable.escarola, R.drawable.brocolis,
+    R.drawable.palmito, R.drawable.frangocatupiry, R.drawable.pizzamodadacasa};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

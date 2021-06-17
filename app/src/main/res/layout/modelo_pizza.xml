@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardElevation="30dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
 
         <ImageView
             android:layout_width="100dp"
@@ -18,28 +23,36 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Pizza Peperone"
                 android:textSize="30sp"
-                android:id="@+id/pizzaTitulo"/>
+                android:id="@+id/pizzaTitulo"
+                android:textColor="#880A0A"
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="salsicha, cove, repolho, alho, pipi"
-                android:textSize="20sp"
-                android:id="@+id/pizzaDescricao"/>
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:id="@+id/pizzaDescricao" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="R$50,00"
-                android:textSize="24sp"
-                android:id="@+id/pizzaValor"/>
+                android:layout_margin="10dp"
+                android:textSize="22sp"
+                android:id="@+id/pizzaValor"
+                android:gravity="right"
+                android:layout_marginTop="5dp"
+                android:textColor="#0B700F"/>
 
 
 

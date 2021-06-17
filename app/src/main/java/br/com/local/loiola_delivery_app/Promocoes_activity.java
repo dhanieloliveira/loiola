@@ -7,34 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class FacaPedidos_Activity extends AppCompatActivity {
+public class Promocoes_activity extends AppCompatActivity {
 
-
-
-    Button btnPizzaG;
-
+    Button btnPromoções;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
-
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.faca_pedidos_layout);
+        setContentView(R.layout.activity_promocoes);
 
-        btnPizzaG = findViewById(R.id.btnPizzaG);
+        btnPromoções = findViewById(R.id.btnPromoções);
 
-        btnPizzaG.setOnClickListener(new View.OnClickListener() {
+        btnPromoções.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), RecyclerPizza_Activity.class));
+
+                startActivity(new Intent(getApplicationContext(), Promocoes_activity.class));
             }
         });
-
-
-
-
-
-
     }
 }
